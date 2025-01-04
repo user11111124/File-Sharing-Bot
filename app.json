@@ -11,11 +11,11 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": "7524995322:AAFByw2LA8LIBIF2WzSYKzdGrnnQ3earA4w"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "6820461647"
+      "value": ""
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
@@ -27,7 +27,7 @@
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "value": "Cluster0"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
@@ -35,11 +35,15 @@
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "-1002321321787"
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
+      "value": "-1002395014488"
+    },
+    "FORCE_SUB_CHANNEL2":{
+      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+      "value": "-1002220095389"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
@@ -55,7 +59,7 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "value": "6820461647",
       "required": false
     },
     "PROTECT_CONTENT": {
