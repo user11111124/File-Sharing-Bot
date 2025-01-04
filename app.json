@@ -11,11 +11,11 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "7524995322:AAFByw2LA8LIBIF2WzSYKzdGrnnQ3earA4w"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "6820461647"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
