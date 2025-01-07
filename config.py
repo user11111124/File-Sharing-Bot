@@ -19,13 +19,13 @@ APP_ID = int(os.environ.get("APP_ID", "27810925"))
 API_HASH = os.environ.get("API_HASH", "04b5c9dd67d1e551ac2f62f25b2d1aad")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002321321787"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002469870754"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6820461647"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8000")
 
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://xseries:xseries@xcluster.tnxdm.mongodb.net/?retryWrites=true&w=majority&appName=XCluster")
