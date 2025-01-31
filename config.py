@@ -8,7 +8,7 @@ from logging.handlers import RotatingFileHandler
 load_dotenv()
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7524995322:AAFByw2LA8LIBIF2WzSYKzdGrnnQ3earA4w")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7902800209:AAH0ouJnxxSzufx_90M66MNUAZtCNnSbwV4")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "27810925"))
@@ -17,7 +17,7 @@ APP_ID = int(os.environ.get("APP_ID", "27810925"))
 API_HASH = os.environ.get("API_HASH", "04b5c9dd67d1e551ac2f62f25b2d1aad")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002321321787"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002255274912"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6820461647"))
@@ -26,22 +26,22 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6820461647"))
 PORT = os.environ.get("PORT", "8030")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://xseries:xseries@xcluster.tnxdm.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "XCluster")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://XTV:CLLEls0jF9DbITqi@cluster0.10z7p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002395014488"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002220095389"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002243932904"))
 JOIN_REQUEST_ENABLE = os.environ.get("JOIN_REQUEST_ENABLED", None)
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","")
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\n")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "").split()):
+    for x in (os.environ.get("ADMINS", "6820461647").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -56,8 +56,8 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 # Auto delete time in seconds.
-AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "0"))
-AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "This file will be automatically deleted in {time} seconds. Please ensure you have saved any necessary content before this time.")
+AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "1800"))
+AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "This file will be automatically deleted in {time} seconds. Please ensure you have forwarded any necessary content in your saved messages before this time.")
 AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "Your file has been successfully deleted. Thank you for using our service. ✅")
 
 #Set true if you want Disable your Channel Posts Share button
